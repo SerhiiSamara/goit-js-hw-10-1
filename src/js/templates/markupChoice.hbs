@@ -1,0 +1,12 @@
+<li class="elect-item">
+	<div class="header-container">
+		<img class="img" src={{flags.svg}} alt=`Flag {{name}}`>
+		<h1>{{name}}</h1>
+	</div>
+	<h2 class="subtile">Capital: <span class="subtitle-text">{{capital}}</span></h2>
+	<h2 class="subtile">Population: <span class="subtitle-text">{{population}}</span></h2>
+	<h2 class="subtile">Languages:
+	{{#each languages}}
+	<span class="subtitle-text"> {{name}},</span>
+	{{/each}}</h2>
+</li>
